@@ -774,10 +774,10 @@ bull@^4.8.4:
     semver "^7.3.2"
     uuid "^8.3.0"
 
-bullmq@^1.86.4:
-  version "1.86.4"
-  resolved "https://registry.yarnpkg.com/bullmq/-/bullmq-1.86.4.tgz#ab7d5992a5021d7c25f4d50c3f50cacd9695fdcd"
-  integrity sha512-f8O/2k3ETEc0KzplNdxZhEvSXY0iDwP14tr5VDZ67QC6VG3LvRdBvxwz3fioJQbCz+8mehWSW2P9KIqgTrmdag==
+bullmq@^1.86.6:
+  version "1.86.6"
+  resolved "https://registry.yarnpkg.com/bullmq/-/bullmq-1.86.6.tgz#cb4f926ab0ca6d0676e4b8bcfaa8685d99860a62"
+  integrity sha512-qeR6Pn/mtuGQrDAAlyjCeG+MQGZkMCsMgPqNcycDsFw7aWdf6Sm3Grmbj+8Qnv9JX0KgJc2TdRj/ugOVqjv1ng==
   dependencies:
     cron-parser "^4.2.1"
     get-port "^5.1.1"
