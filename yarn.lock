@@ -23,10 +23,17 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@bull-board/api@4.12.1", "@bull-board/api@^4.12.1":
+"@bull-board/api@4.12.1":
   version "4.12.1"
   resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-4.12.1.tgz#10e328fb3c70473ca99a27e6ebbec11b5ce6a9d5"
   integrity sha512-cJk7LhphNZHwbN4yON5rYiDgob3D7cwFGrxf6LlnR1w/a6zyap1x/o74MfV/0T6NpUpvUSf7ccbj3knU6DNYVw==
+  dependencies:
+    redis-info "^3.0.8"
+
+"@bull-board/api@^4.12.2":
+  version "4.12.2"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-4.12.2.tgz#d025de77ccb1b454c583184b27bc939d2e845838"
+  integrity sha512-efF8K1pvfEEft2ELQwCBe/a225vHufCjM2hfcyvmIG/SUX6TlKQFUFZ1+KV0wenD9wxvUVb5wxUu6on+HrZiVg==
   dependencies:
     redis-info "^3.0.8"
 
