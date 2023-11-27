@@ -44,29 +44,29 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@bull-board/api@5.9.1", "@bull-board/api@^5.9.1":
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-5.9.1.tgz#c75768b50d08f6e6b16b935e12af7f774398db30"
-  integrity sha512-xZzPYNw9Dp46It4vvZv3tmFScmUu/UT/jWQxYK9cvbkJRXh15rsZrbbR+/phUqou0NxRQGiHoFSZ1y5D107dIA==
+"@bull-board/api@5.9.2", "@bull-board/api@^5.9.2":
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-5.9.2.tgz#410ed7fc3876c1494073c2b8edc63517bc2aac56"
+  integrity sha512-x89+CsOZHgQnnUFmC0NRgBJNJtgvQSmrpvAb4SA/tX2ftJ9PSxobLhAx/mvL9Ekdi6U1FZD2uA2JH2nsVVzwCg==
   dependencies:
     redis-info "^3.0.8"
 
-"@bull-board/express@^5.9.1":
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-5.9.1.tgz#1fb55f707dd192a6164ced89a1336537f2547bb0"
-  integrity sha512-LxBmstUY0dzjgxeDlgMhZiaD3EDKk4SG/PG3Mx6nsgYu205Brp0a54QKxJ61W1SeTYBsAJxGIg8PxYBkQa75+w==
+"@bull-board/express@^5.9.2":
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-5.9.2.tgz#9f644958eb4ead23fe95211b09be82fd67efe6bb"
+  integrity sha512-z09Gu7P+7iVXc8BN00jQhvK4ThK0zJGVaMYd+w6Xx9O1WN3CF2/C2OWLmUdvqwTL2uX3Lx1bSgf5gjw+Fk72DA==
   dependencies:
-    "@bull-board/api" "5.9.1"
-    "@bull-board/ui" "5.9.1"
+    "@bull-board/api" "5.9.2"
+    "@bull-board/ui" "5.9.2"
     ejs "3.1.7"
     express "4.17.3"
 
-"@bull-board/ui@5.9.1":
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-5.9.1.tgz#46b00abc551f6f04e611b698d209bfbc6ed0bad2"
-  integrity sha512-lL93KVRTpLSl73KUFBw7sXOcCrqddGBbpiMKWEbViXxObIq68yFuhRrcfR7JeTSocLF5GsnqSVdSiNCZHmdNpw==
+"@bull-board/ui@5.9.2":
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-5.9.2.tgz#05921f7f80b849e495f66af2435d030f193b1cf4"
+  integrity sha512-wNlY8l+x4rhwoiGIpZNk/FrCrNzKcBeLqMcZTRC3DIBkp91njMkx+MJeG6EYlENcsN5EQk3I6IwUgvTXcS315g==
   dependencies:
-    "@bull-board/api" "5.9.1"
+    "@bull-board/api" "5.9.2"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
