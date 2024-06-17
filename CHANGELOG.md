@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/Addono/bull-board-docker/compare/v1.14.0...v1.15.0) (2024-06-17)
+
+
+### Features
+
+* **deps:** bump the bull-board to 5.20.2 ([faac0d9](https://github.com/Addono/bull-board-docker/commit/faac0d96e99422f6f127a9d2833ab2f86b95189d))
+
 # [1.14.0](https://github.com/Addono/bull-board-docker/compare/v1.13.0...v1.14.0) (2024-03-18)
 
 
