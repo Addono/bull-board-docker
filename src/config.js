@@ -18,6 +18,7 @@ const config = {
 	PROXY_PATH: PROXY_PATH,
 	USER_LOGIN: process.env.USER_LOGIN,
 	USER_PASSWORD: process.env.USER_PASSWORD,
+	BOARD_TITLE: process.env.BOARD_TITLE || 'Bull Board',
 
 	AUTH_ENABLED: Boolean(process.env.USER_LOGIN && process.env.USER_PASSWORD),
 	HOME_PAGE: PROXY_PATH || '/',
