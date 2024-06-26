@@ -31,7 +31,6 @@ const options = {
 	},
 };
 
-
 const serverAdapter = new ExpressAdapter();
 const client = redis.createClient(redisConfig.redis);
 const {setQueues} = createBullBoard({queues: [], serverAdapter, options});
