@@ -28,8 +28,10 @@ const redisConfig = {
 const options = {
 	uiConfig: {
 		boardTitle: config.BOARD_TITLE,
-	}
-}
+	},
+
+};
+
 
 const serverAdapter = new ExpressAdapter();
 const client = redis.createClient(redisConfig.redis);
