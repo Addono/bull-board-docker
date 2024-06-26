@@ -29,7 +29,6 @@ const options = {
 	uiConfig: {
 		boardTitle: config.BOARD_TITLE,
 	},
-
 };
 
 
