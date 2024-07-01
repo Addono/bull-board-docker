@@ -956,10 +956,10 @@ builtins@^5.0.0:
   dependencies:
     semver "^7.0.0"
 
-bull@^4.13.0:
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/bull/-/bull-4.13.0.tgz#5b4d3af268f80e934e07c83100be770318e36f5d"
-  integrity sha512-XAAhHeXtW+luEYuid3shGv25ErmsegrVXMukbP7AqNUgRgiTnRnIGdjPyzmHu3/Tjm6jNdODqLHJ12t07fyUrQ==
+bull@^4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/bull/-/bull-4.15.0.tgz#f55e927fec74e40464f7414661437da2ae8607e5"
+  integrity sha512-nOEAfUXwUXtFbRPQP3bWCwpQ/NAerAu2Nym/ucv5C1E+Qh2x6RGdKKsYIfZam4mYncayTynTUN/HLhRgGi2N8w==
   dependencies:
     cron-parser "^4.2.1"
     get-port "^5.1.1"
