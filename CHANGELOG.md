@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/Addono/bull-board-docker/compare/v1.15.0...v1.16.0) (2024-07-05)
+
+
+### Features
+
+* allow configuring the board title through env-var `BOARD_TITLE` ([#355](https://github.com/Addono/bull-board-docker/issues/355)) by [@ukiesmack](https://github.com/ukiesmack) ([f2dab20](https://github.com/Addono/bull-board-docker/commit/f2dab206f1f739bd1be7c4d25a165643b9b334ab))
+
 # [1.15.0](https://github.com/Addono/bull-board-docker/compare/v1.14.0...v1.15.0) (2024-06-17)
 
 
