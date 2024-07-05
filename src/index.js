@@ -25,9 +25,15 @@ const redisConfig = {
 	},
 };
 
+const options = {
+	uiConfig: {
+		boardTitle: config.BOARD_TITLE,
+	},
+};
+
 const serverAdapter = new ExpressAdapter();
 const client = redis.createClient(redisConfig.redis);
-const {setQueues} = createBullBoard({queues: [], serverAdapter});
+const {setQueues} = createBullBoard({queues: [], serverAdapter, options});
 const router = serverAdapter.getRouter();
 
 client.KEYS(`${config.BULL_PREFIX}:*`, (err, keys) => {
