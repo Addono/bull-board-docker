@@ -45,29 +45,29 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@bull-board/api@6.0.0", "@bull-board/api@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.0.0.tgz#4c4abf250807ad1fd15d3188c8c06f994093539c"
-  integrity sha512-O0IsIwAOU47bPTJnqRO7RtKFQToMvwRebbuPi6M+SG1gXyiqixLg9pycnfXgSeroaT9E7QQ2PsCPW1HO8VORvw==
+"@bull-board/api@6.0.2", "@bull-board/api@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.0.2.tgz#509125dea16b791b60f6c41d4d72214ae0f6e4e9"
+  integrity sha512-GdSdHD9/1U1cTnzadtgHUNNRtwMz2kn+Qo+YNfkA4VZjrBFMCOqlyeI4SPt2OOL8RH3wjYCNK4pmnFny6WCy4A==
   dependencies:
     redis-info "^3.0.8"
 
-"@bull-board/express@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.0.0.tgz#9eec2bcdceccbe8fb3b51f20183b4cb1e539f121"
-  integrity sha512-KqBiDeur0Vf2AtITUaNqlO/oEsUxz2sbI0GVnMTR5AF/cQPO5J1KO9cFEPldek/TzQIL0PSfAf/m0WeMu/yyfw==
+"@bull-board/express@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.0.2.tgz#a700f81fca8156c6b691c8982dcf80c9a14a7b02"
+  integrity sha512-nbgfumvrc2p7aFREHWhT6log6tJ7fv4/AJBl0C0kzpR7pRsgQort/zUbgc4RCmK7IVaPMfZbEbAXpliCw0RogA==
   dependencies:
-    "@bull-board/api" "6.0.0"
-    "@bull-board/ui" "6.0.0"
+    "@bull-board/api" "6.0.2"
+    "@bull-board/ui" "6.0.2"
     ejs "^3.1.10"
     express "^4.19.2"
 
-"@bull-board/ui@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.0.0.tgz#cfe3bbf542f53cf63160a18d91f54b40c619a9ae"
-  integrity sha512-wAFTlBTJbq5DSWxCzTV+FOyZDVwrXP+G1CQ2BpLG9o9+dpwYxUESx/VxNEDHnyPcy13gm29kB4fSRY+nkelkcQ==
+"@bull-board/ui@6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.0.2.tgz#a4ee90ce2e7c234ee210a09f8b3b6e5821a1ae1e"
+  integrity sha512-0HlTgnAin8TXN/3t41BMoy3gL+55WhN+0FMoPSmqebXwecwDeyAwIJ8ZA+9ZRm9600E35QnXlUUWkQNFWxLyPw==
   dependencies:
-    "@bull-board/api" "6.0.0"
+    "@bull-board/api" "6.0.2"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
