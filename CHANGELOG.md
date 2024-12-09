@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/Addono/bull-board-docker/compare/v1.18.0...v1.19.0) (2024-12-09)
+
+
+### Features
+
+* **deps:** bumps bull-board to 6.5.3 ([b4edd19](https://github.com/Addono/bull-board-docker/commit/b4edd19bb24786b5b3607411e9b8e0105dc4396b))
+
 # [1.18.0](https://github.com/Addono/bull-board-docker/compare/v1.17.0...v1.18.0) (2024-10-09)
 
 
