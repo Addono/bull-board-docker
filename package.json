@@ -15,7 +15,7 @@
     "connect-ensure-login": "^0.1.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
-    "express-session": "^1.18.0",
+    "express-session": "^1.18.1",
     "morgan": "^1.10.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
