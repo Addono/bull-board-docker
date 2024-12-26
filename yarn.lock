@@ -45,29 +45,29 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@bull-board/api@6.5.3", "@bull-board/api@^6.5.3":
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.5.3.tgz#07fccb2b25e1e36bf3f4759013b9d5c647a6c1ea"
-  integrity sha512-k58OlCheALXaoN+5l8U0VfLo9jQvl2nSR3/6vUmFQV8wcNBPfRtQRxUBh9/SbTDmFvtvmzvMkc+J3yWGMCDrAw==
+"@bull-board/api@6.5.4", "@bull-board/api@^6.5.4":
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.5.4.tgz#2e581c943283b0a26199b4ac72c345ebeeac4e1a"
+  integrity sha512-5EFs4lSzfTf/TUMOKaADjSVyJAnP9/jJw0TAW2NBD+LzxjJCSpqN8y3vxoQo1vnKCf/iiLS6wwSRNDObNDz1XA==
   dependencies:
     redis-info "^3.0.8"
 
-"@bull-board/express@^6.5.3":
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.5.3.tgz#b26396844549c4da8d1d7848c4f8cf309749d696"
-  integrity sha512-Jv8llFCJy297MBxFKahL+OsYS4z2b3xsNalYMRFcI635uGWa1rASEV+jR8lYPNBJlpzvZI3fJ0mIJegv94eIbg==
+"@bull-board/express@^6.5.4":
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.5.4.tgz#c5b1b300f14d7f0b3d60f0bc5cb95663e4efbcbf"
+  integrity sha512-QodSuJNBjBIxsPU6YSkZf2iAPsIa3ihtcuS1o6JY2bhYpPrtegjVL8j7suLX801OlU1JRXgXe+Z+eGWFjSWu+Q==
   dependencies:
-    "@bull-board/api" "6.5.3"
-    "@bull-board/ui" "6.5.3"
+    "@bull-board/api" "6.5.4"
+    "@bull-board/ui" "6.5.4"
     ejs "^3.1.10"
-    express "^4.21.1"
+    express "^4.21.1 || ^5.0.0"
 
-"@bull-board/ui@6.5.3":
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.5.3.tgz#eabe62fc8ecbd72d0451d873506fb129fd4b51de"
-  integrity sha512-h2A7HX6Mb1+/sMTYueK5zBgOCPiPyu9ENHUapPiPdrl58xm+J9vHA/TYxzv9vgJ9DckWczXg1JP11P9SmC1oxQ==
+"@bull-board/ui@6.5.4":
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.5.4.tgz#5d7811864a54f75939b8184314272b1889c2bb18"
+  integrity sha512-5K39CaJk+p5fyckXI0jAc9lVJZAJ+tkj8wlyv8X3qszO6jKg/rYE20HaNgUOIBpQK9yQQDwgaxpip767svjnVQ==
   dependencies:
-    "@bull-board/api" "6.5.3"
+    "@bull-board/api" "6.5.4"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -1662,10 +1662,10 @@ express-session@^1.18.1:
     safe-buffer "5.2.1"
     uid-safe "~2.1.5"
 
-express@^4.21.1:
-  version "4.21.1"
-  resolved "https://registry.yarnpkg.com/express/-/express-4.21.1.tgz#9dae5dda832f16b4eec941a4e44aa89ec481b281"
-  integrity sha512-YSFlK1Ee0/GC8QaO91tHcDxJiE/X4FbpAyQWkxAvG6AXCuR65YzK8ua6D9hvi/TzUfZMpc+BwuM1IPw8fmQBiQ==
+express@^4.21.1, "express@^4.21.1 || ^5.0.0":
+  version "4.21.2"
+  resolved "https://registry.yarnpkg.com/express/-/express-4.21.2.tgz#cf250e48362174ead6cea4a566abef0162c1ec32"
+  integrity sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==
   dependencies:
     accepts "~1.3.8"
     array-flatten "1.1.1"
@@ -1686,7 +1686,7 @@ express@^4.21.1:
     methods "~1.1.2"
     on-finished "2.4.1"
     parseurl "~1.3.3"
-    path-to-regexp "0.1.10"
+    path-to-regexp "0.1.12"
     proxy-addr "~2.0.7"
     qs "6.13.0"
     range-parser "~1.2.1"
@@ -3740,10 +3740,10 @@ path-scurry@^1.6.1:
     lru-cache "^7.14.1"
     minipass "^4.0.2"
 
-path-to-regexp@0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.10.tgz#67e9108c5c0551b9e5326064387de4763c4d5f8b"
-  integrity sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w==
+path-to-regexp@0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.12.tgz#d5e1a12e478a976d432ef3c58d534b9923164bb7"
+  integrity sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==
 
 path-type@^4.0.0:
   version "4.0.0"
