@@ -45,29 +45,29 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@bull-board/api@6.6.1", "@bull-board/api@^6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.6.1.tgz#3fccdd686da868b3e9c4e8f8bba1e83146bd48d3"
-  integrity sha512-IlG60N/r/pGfZH39/IZz2rfzBXOuTpKA+5SOLX5ESqk/JPtHq2ipnaczdxSsXIcXtefmhwyhBBfQujW1bJdJlw==
+"@bull-board/api@6.7.0", "@bull-board/api@^6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.7.0.tgz#413d687dec5b1b4af93fc5e23117b7d6d4b5915b"
+  integrity sha512-1kUTVc7UCodShxMU2nVJA8yY4N1GlypY2tTx5dghlWo/ngrbujgirD4BgEKW+K4uSVGnKZkd82HbWGGXuzzUAA==
   dependencies:
     redis-info "^3.0.8"
 
-"@bull-board/express@^6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.6.1.tgz#cdfd12f8303c6ebc6bf066a50b8b8d145b8f0ba8"
-  integrity sha512-/3ghya2Uroq3yIEQfK4XG4oT/zGR4NMbEveqLFcOuvhvm4x3IAO3z04ugp0eDvr8pxgD3uS2Tg1cQimzUOIo4A==
+"@bull-board/express@^6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.7.0.tgz#359014e3864dbc3b357d4ad4be652dbb6f5af9c0"
+  integrity sha512-fYKigQhbvaiqtEKaNFcDf4qGm/nUGJN8n1nqlYwP1K8hBzU58gHtM4TMP+JuO9+PQDyUTwwhOjWvlQZsILmGWg==
   dependencies:
-    "@bull-board/api" "6.6.1"
-    "@bull-board/ui" "6.6.1"
+    "@bull-board/api" "6.7.0"
+    "@bull-board/ui" "6.7.0"
     ejs "^3.1.10"
     express "^4.21.1 || ^5.0.0"
 
-"@bull-board/ui@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.6.1.tgz#b63234ddd30d4da10ecb032200b933a74c042b40"
-  integrity sha512-L4xELOzDgUz4o7mQssGM0sef1QD41AyJ3iHbXIi8V72jj2FXeDwv63BoccZTC3GZHHNo21RkslcJvBYPkUsEnA==
+"@bull-board/ui@6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.7.0.tgz#7ee3845566c3c037f52f66908ff00e425a2af411"
+  integrity sha512-f398IerHbJTeIubAbeOTEfLJa06Tw6ameSidAlwn7m6jK7oXqbKiqtrBNQ4H1BG68EQ5KNLRvBxDe5QMMVEIZA==
   dependencies:
-    "@bull-board/api" "6.6.1"
+    "@bull-board/api" "6.7.0"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
