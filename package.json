@@ -7,8 +7,8 @@
     "start": "node ."
   },
   "dependencies": {
-    "@bull-board/api": "^6.6.1",
-    "@bull-board/express": "^6.6.1",
+    "@bull-board/api": "^6.7.7",
+    "@bull-board/express": "^6.7.7",
     "body-parser": "^1.20.2",
     "bull": "^4.16.5",
     "bullmq": "^1.87.1",
