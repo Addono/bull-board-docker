@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/Addono/bull-board-docker/compare/v1.21.0...v1.22.0) (2025-04-23)
+
+
+### Features
+
+* **deps:** bump the bull-board to 6.9.1 ([a176bbb](https://github.com/Addono/bull-board-docker/commit/a176bbb06a14165290e2bd45a9341dbc8f42d142))
+
 # [1.21.0](https://github.com/Addono/bull-board-docker/compare/v1.20.0...v1.21.0) (2025-04-15)
 
 
