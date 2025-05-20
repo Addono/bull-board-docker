@@ -1,6 +1,6 @@
 {
   "name": "bullboard",
-  "version": "1.22.2",
+  "version": "1.22.3",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
