@@ -13,7 +13,7 @@
     "bull": "^4.16.5",
     "bullmq": "^1.87.1",
     "connect-ensure-login": "^0.1.1",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.0.0",
     "express": "^4.21.2",
     "express-session": "^1.18.1",
     "morgan": "^1.10.0",
