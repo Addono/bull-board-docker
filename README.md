@@ -17,7 +17,7 @@ docker run -p 3000:3000 addono/bull-board
 ```
 will run bull-board interface on `localhost:3000` and connect to your redis instance on `localhost:6379` without password.
 
-To configurate redis see "Environment variables" section.
+To configure Redis see the section "Environment variables".
 
 ### Quick start with docker-compose
 ```yaml
@@ -91,3 +91,4 @@ volumes:
 ```
 
 [bull-board]: https://github.com/felixmosh/bull-board
+
