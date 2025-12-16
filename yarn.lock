@@ -87,29 +87,29 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@bull-board/api@6.14.1", "@bull-board/api@^6.14.1":
-  version "6.14.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.14.1.tgz#0dadefc1f140b7cb4a2ddc80f2f391ffe29cf1ba"
-  integrity sha512-Bl0Xa9V8UdyjPtkhzAp3o2yTbF7TkVoCr71dctPaRGQoM7oKRT+1RDIaRtmEy49Uhr/8sbb4WhmwkbO6u8ZAtg==
+"@bull-board/api@6.15.0", "@bull-board/api@^6.15.0":
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.15.0.tgz#110ecc2003cbdcf8530ce5071582efbb1496ac93"
+  integrity sha512-z8qLZ4uv83hZNu+0YnHzhVoWv1grULuYh80FdC2xXLg8M1EwsOZD9cJ5CNpgBFqHb+NVByTmf5FltIvXdOU8tQ==
   dependencies:
     redis-info "^3.1.0"
 
-"@bull-board/express@^6.14.1":
-  version "6.14.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.14.1.tgz#e4441f353ceddc0f23694e7d0fb11acfb66ee8b0"
-  integrity sha512-4sJf82xEaUcw71FJZryO43GZ1jrbIbLKokoDXnR2kN218SF+7ILDHavJR61nl0bdCDxMIBN6egbHDhNjyjUmpA==
+"@bull-board/express@^6.15.0":
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.15.0.tgz#8202458c5bd242024cff90f21aa01d031eb4c113"
+  integrity sha512-c/nnxr5evLNgqoSSEvTwPb+6WaTB3PN3Bq2oMTBtwCUJlZr+s1UX7gx0wVIYHjeZyUdYR7fX7hhh2cRLO5vqeg==
   dependencies:
-    "@bull-board/api" "6.14.1"
-    "@bull-board/ui" "6.14.1"
+    "@bull-board/api" "6.15.0"
+    "@bull-board/ui" "6.15.0"
     ejs "^3.1.10"
-    express "^4.21.1 || ^5.0.0"
+    express "^5.2.0"
 
-"@bull-board/ui@6.14.1":
-  version "6.14.1"
-  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.14.1.tgz#cd8fbc9569dd750bd1e05c2322c8857c55f5ca51"
-  integrity sha512-2VvSTj/ZuieByMjJBqR+G2u8Ke9XhXQKUmyCPaP3x5P8shDkt6JAB2gmfS576KCH+ytA8U8REuy2Yiy/N4dElA==
+"@bull-board/ui@6.15.0":
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.15.0.tgz#921852808a4527fe2cea8ddcbd7e3a7d61c3790a"
+  integrity sha512-bb/j6VMq2cfPoE/ZiUO7AcYTL0IjtxvKxkYV0zu+i1pc+JEv3ct4BItCII57knJR/YjZKGmdfr079KJFvzXC5A==
   dependencies:
-    "@bull-board/api" "6.14.1"
+    "@bull-board/api" "6.15.0"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -1574,7 +1574,7 @@ express-session@^1.18.2:
     safe-buffer "5.2.1"
     uid-safe "~2.1.5"
 
-"express@^4.21.1 || ^5.0.0", express@^5.2.1:
+express@^5.2.0, express@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/express/-/express-5.2.1.tgz#8f21d15b6d327f92b4794ecf8cb08a72f956ac04"
   integrity sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==
