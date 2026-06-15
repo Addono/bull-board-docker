@@ -87,29 +87,29 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@bull-board/api@6.16.0", "@bull-board/api@^6.16.0":
-  version "6.16.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.16.0.tgz#c2e30246d02dbcbcf41e6e0df866c28ef5f0bf82"
-  integrity sha512-QK4fz2h5fwSqswolsBCW5s+cLp5XuTQAauArGM5dbrNhTYR6zzfm3AuTjQcZll4y3xW2u9EUTkQBffZsBwVOow==
+"@bull-board/api@8.0.0", "@bull-board/api@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-8.0.0.tgz#4b67e702da0578d4c09053e3f3ab6e5b94328a0f"
+  integrity sha512-GYXJNJclgm9H5Tt/tmuNWfjyF2BuygMwl8xrRIfxxOTgcK4SB8zNUPveTcHGAOoKKtPDVotHNZCBRrFCcOAXMA==
   dependencies:
     redis-info "^3.1.0"
 
-"@bull-board/express@^6.16.0":
-  version "6.16.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-6.16.0.tgz#1efac7d5f756023f9413680a5109d95005c9a3a0"
-  integrity sha512-Ljh85QRlwKJpblSdhmVVzPjDLgselTwOhEwUb8EAqAhOXxCQGr7ldpWc9k53MfkmkAl+1mNym2zLEzhtNUZ4Pg==
+"@bull-board/express@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/express/-/express-8.0.0.tgz#96ff9152d30094757d83ba00cdb57decedac11f6"
+  integrity sha512-NYMzcJNSnQBhVuQuxUyGvJ5U6HymuDoDN+jAX17/CN7xjEhDEGeW5twICiv4ZzWjyAdHS0T9wVyFhL7aSwjRBg==
   dependencies:
-    "@bull-board/api" "6.16.0"
-    "@bull-board/ui" "6.16.0"
-    ejs "^3.1.10"
-    express "^5.2.0"
+    "@bull-board/api" "8.0.0"
+    "@bull-board/ui" "8.0.0"
+    ejs "^6.0.1"
+    express "^5.2.1"
 
-"@bull-board/ui@6.16.0":
-  version "6.16.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.16.0.tgz#926dc07bd17598ed978bb91fe27ab2a7da3005ce"
-  integrity sha512-lp2KZUFNKN5nT5wXBCDLwO602m2ku9coPb5GaLc+KWNicQwKZzrs7Qt+zHIeejiOtnEFCuqxsdVlHz+mHR1GwA==
+"@bull-board/ui@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-8.0.0.tgz#5aab0dca4f7e64417d4120aefb6665fc2edd9aeb"
+  integrity sha512-X/F256CmpBj9oj+fK2wOzjygkhTtjgWnc3f/SxPiUs3rQFvgYCplJLEaURh13J+Tpq46/1drAxq4Ukt4e5LelA==
   dependencies:
-    "@bull-board/api" "6.16.0"
+    "@bull-board/api" "8.0.0"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -801,11 +801,6 @@ array-ify@^1.0.0:
   resolved "https://registry.yarnpkg.com/array-ify/-/array-ify-1.0.0.tgz#9e528762b4a9066ad163a6962a364418e9626ece"
   integrity sha512-c5AMf34bKdvPhQ7tBGhqkgKNUzMr4WUs+WDtC2ZUGOUncbxKMTvqxYctiseW3+L4bA8ec+GcZ6/A/FW4m8ukng==
 
-async@^3.2.3:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/async/-/async-3.2.4.tgz#2d22e00f8cddeb5fde5dd33522b56d1cf569a81c"
-  integrity sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==
-
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -979,7 +974,7 @@ chalk@^2.0.0, chalk@^2.3.2, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.0.2:
+chalk@^4.0.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -1346,12 +1341,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-ejs@^3.1.10:
-  version "3.1.10"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.10.tgz#69ab8358b14e896f80cc39e62087b88500c3ac3b"
-  integrity sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==
-  dependencies:
-    jake "^10.8.5"
+ejs@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-6.0.1.tgz#88ea8ce00335c3575d7c3602dd76e84b0bd60f43"
+  integrity sha512-UaaM14yby8U3k02ihS1Bmj5Kz2d7CCQM1scxpgs4Mhkq8F1wR2gl3+Ts4h5Ne4Mnt7M9m4Dw7jsuMr3+xO4vZA==
 
 emoji-regex@^10.3.0:
   version "10.6.0"
@@ -1524,7 +1517,7 @@ express-session@^1.19.0:
     safe-buffer "~5.2.1"
     uid-safe "~2.1.5"
 
-express@^5.2.0, express@^5.2.1:
+express@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/express/-/express-5.2.1.tgz#8f21d15b6d327f92b4794ecf8cb08a72f956ac04"
   integrity sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==
@@ -1591,13 +1584,6 @@ figures@^6.0.0, figures@^6.1.0:
   integrity sha512-d+l3qxjSesT4V7v2fh+QnmFnUWv9lSpjarhShNTgBOfA0ttejbQUAlHLitbjkoRiDulW0OPoQPYIGhIC8ohejg==
   dependencies:
     is-unicode-supported "^2.0.0"
-
-filelist@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/filelist/-/filelist-1.0.2.tgz#80202f21462d4d1c2e214119b1807c1bc0380e5b"
-  integrity sha512-z7O0IS8Plc39rTCq6i6iHxk43duYOn8uFJiWSewIq0Bww1RNybVHSCjahmcC87ZqAm4OTvFzlzeGu3XAzG1ctQ==
-  dependencies:
-    minimatch "^3.0.4"
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -2231,16 +2217,6 @@ jackspeak@^4.1.1:
   dependencies:
     "@isaacs/cliui" "^8.0.2"
 
-jake@^10.8.5:
-  version "10.8.5"
-  resolved "https://registry.yarnpkg.com/jake/-/jake-10.8.5.tgz#f2183d2c59382cb274226034543b9c03b8164c46"
-  integrity sha512-sVpxYeuAhWt0OTWITwT98oyV0GsXyMlXCF+3L1SuafBVUIr/uILGRB+NqwkzhgXKvoJpDIpQvqkUALgdmQsQxw==
-  dependencies:
-    async "^3.2.3"
-    chalk "^4.0.2"
-    filelist "^1.0.1"
-    minimatch "^3.0.4"
-
 java-properties@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/java-properties/-/java-properties-1.0.2.tgz#ccd1fa73907438a5b5c38982269d0e771fe78211"
@@ -2618,13 +2594,6 @@ minimatch@^10.0.3:
   integrity sha512-IPZ167aShDZZUMdRk66cyQAW3qr0WzbHkPdMYa8bzZhlHhO3jALbKdxcaak7W9FfT2rZNpQuUu4Od7ILEpXSaw==
   dependencies:
     "@isaacs/brace-expansion" "^5.0.0"
-
-minimatch@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
-  integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
-  dependencies:
-    brace-expansion "^1.1.7"
 
 minimatch@^3.1.1:
   version "3.1.2"
