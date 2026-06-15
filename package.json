@@ -11,7 +11,7 @@
     "@bull-board/express": "^6.16.0",
     "body-parser": "^2.2.2",
     "bull": "^4.16.5",
-    "bullmq": "^1.87.1",
+    "bullmq": "^1.91.1",
     "connect-ensure-login": "^0.1.1",
     "dotenv": "^17.2.4",
     "express": "^5.2.1",
